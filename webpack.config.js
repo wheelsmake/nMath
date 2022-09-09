@@ -4,7 +4,7 @@ module.exports = {
     optimization: {
         minimize: false,
     },
-    entry: "./src/nMath.export.ts",
+    entry: "./src/nMath.define.ts",
     devtool: "source-map",
     output: {
         path: path.resolve(__dirname, "dist"),
